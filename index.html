@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cadence: the record</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --bg:#0a0e13; --panel:#10161e; --ink:#eef2f5; --muted:#8fa0ae; --line:#202c3a; --good:#3ddc84; --bad:#ff6b6b; --gold:#f2c14e;
+  --head:"Barlow Condensed","Arial Narrow",Impact,sans-serif; }
+* { box-sizing:border-box; } body { margin:0; background:radial-gradient(1100px 480px at 78% -8%, rgba(61,220,132,.07), transparent 62%), var(--bg); color:var(--ink);
+  font:15px/1.5 Inter, system-ui, sans-serif; }
+main { max-width:1100px; margin:0 auto; padding:34px 16px 70px; }
+.brand { font:800 20px/1 var(--head); letter-spacing:.06em; } .brand b { color:var(--good); }
+h1 { font:800 46px/1.05 var(--head); letter-spacing:.04em; text-transform:uppercase; margin:18px 0 6px; }
+h2 { font:700 22px/1.1 var(--head); letter-spacing:.05em; text-transform:uppercase; margin:34px 0 4px; }
+.m, .s { color:var(--muted); } .s { font-size:13px; } .good { color:var(--good); } .bad { color:var(--bad); } .u { color:var(--muted); font-size:13px; }
+.hero { display:grid; grid-template-columns:1.4fr repeat(2, 1fr); gap:12px; margin:14px 0; }
+.tile { background:linear-gradient(180deg,#131c26,#0f151c); border:1px solid var(--line); border-radius:16px; padding:18px 20px; }
+.tile.main { border-color:rgba(61,220,132,.5); background:linear-gradient(160deg, rgba(61,220,132,.12), #0f151c 60%); }
+.tile.main.alt { border-color:rgba(242,193,78,.5); background:linear-gradient(160deg, rgba(242,193,78,.12), #0f151c 60%); } .tile.main.alt .v { color:var(--gold); }
+.k { font:700 13px/1.2 var(--head); letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+.v { font:800 40px/1.05 var(--head); margin-top:6px; } .tile.main .v { font-size:78px; color:var(--good); }
+.panel { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:6px 14px; overflow-x:auto; margin-top:12px; }
+table { width:100%; border-collapse:collapse; font-size:14px; font-variant-numeric:tabular-nums; }
+th, td { text-align:left; padding:8px 8px; border-bottom:1px solid var(--line); white-space:nowrap; }
+th { font:700 12px var(--head); letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+tr:last-child td { border-bottom:0; } .fp { font:12px ui-monospace, Consolas, monospace; color:var(--muted); white-space:normal; word-break:break-all; min-width:220px; }
+label.btn { display:inline-block; background:#18222d; color:var(--ink); border:1px solid var(--line); border-radius:8px; padding:6px 12px; cursor:pointer; }
+label.btn input { display:none; }
+@media (max-width:760px) { .hero { grid-template-columns:1fr 1fr; } .tile.main { grid-column:1/-1; } h1 { font-size:36px; } }
+</style></head><body><main>
+<div class="brand">CADEN<b>CE</b></div>
+<h1>The record</h1>
+<p class="s">Every planned trade since 2026-10-05, ES futures. Each trading day the full plan is sealed before the 6:30am PT open, and only
+its fingerprint is published. Nothing is added, removed or changed after the fact. 1 unit = the risk of one trade; results are net of fees.</p>
+<h2>The strategy</h2><p class='s'>Every planned trade, graded on real market data, whether or not it was taken.</p><div class='hero'><div class='tile main '><div class='k'>Win rate</div><div class='v'>—</div><div class='s'>nothing graded yet</div></div></div>
+<h2>Actually traded</h2><p class='s'>What was really traded, as logged by the trader. Trades not taken don't count toward the rate.</p><div class='hero'><div class='tile main alt'><div class='k'>Win rate</div><div class='v'>—</div><div class='s'>nothing graded yet</div></div></div>
+<h2>Every trade</h2>
+<div class="panel"><table><tr><th>Date</th><th>Trade</th><th>Strategy</th><th>Actually traded</th></tr><tr><td class=m colspan=4>Trades appear here after the day's 1:45pm PT close.</td></tr></table></div>
+<h2>Sealed days</h2>
+<p class="s">Each fingerprint is SHA-256 of a secret key followed by that day's full plan, published before the open. The plan itself stays
+private. Anyone given a day's plan file can check it against the fingerprint here:</p>
+<p><label class="btn">Check a plan file<input type="file" id="chk" accept=".json"></label> <span id="chkout" class="s"></span></p>
+<div class="panel"><table><tr><th>Day</th><th>Sealed</th><th>Trades</th><th>Fingerprint</th></tr><tr><td>2026-10-05</td><td>2026-10-05 04:38:49-07:00</td><td>2</td><td class='fp'>4fc461ff85514a81315734f5b1f57040225925e50aef7aa2ac7b71cb36723ac8</td></tr></table></div>
+<p class="s">The push times in this page's GitHub history are GitHub's own timestamps. Past results are not a promise. Futures trading carries risk of loss. Not investment advice.</p>
+</main>
+<script>
+const FPS = {"2026-10-05": "4fc461ff85514a81315734f5b1f57040225925e50aef7aa2ac7b71cb36723ac8"};
+document.getElementById("chk").onchange = async e => {
+  const out = document.getElementById("chkout"), f = e.target.files[0]; if (!f) return;
+  try {
+    const p = JSON.parse(await f.text()), day = JSON.parse(p.payload).date;
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(p.key + p.payload));
+    const hex = [...new Uint8Array(buf)].map(x => x.toString(16).padStart(2, "0")).join("");
+    out.innerHTML = !FPS[day] ? "no seal published for " + day
+      : hex === FPS[day] ? "<b class=good>✓ matches the fingerprint sealed for " + day + "</b>" : "<b class=bad>✗ does not match " + day + "</b>";
+  } catch (err) { out.textContent = "not a plan file"; }
+};
+</script></body></html>
