@@ -31,9 +31,14 @@ label.btn input { display:none; }
 <p class="s">Every planned trade since 2026-10-05, ES futures. Each trading day the full plan is sealed before the 6:30am PT open, and only
 its fingerprint is published. Nothing is added, removed or changed after the fact. 1 unit = the risk of one trade; results are net of fees.</p>
 <h2>The strategy</h2><p class='s'>Every planned trade, graded on real market data, whether or not it was taken.</p><div class='hero'><div class='tile main '><div class='k'>Win rate</div><div class='v'>—</div><div class='s'>nothing graded yet</div></div></div>
-<h2>Actually traded</h2><p class='s'>What was really traded, as logged by the trader. Trades not taken don't count toward the rate.</p><div class='hero'><div class='tile main alt'><div class='k'>Win rate</div><div class='v'>—</div><div class='s'>nothing graded yet</div></div></div>
+<h2>Actually traded</h2><p class="s">What was really traded, as logged by the trader. Trades not taken don't count toward the rate.</p>
+<div class="hero">
+  <div class="tile main alt"><div class="k">Win rate</div><div class="v">0.0%</div><div class="s">0-1 · 1 trades</div></div>
+  <div class="tile"><div class="k">Units</div><div class="v bad">−1.0</div><div class="s">profit at 1 unit of risk a trade</div></div>
+  <div class="tile"><div class="k">Return</div><div class="v bad">-103.5%</div><div class="s">per unit risked</div></div>
+</div>
 <h2>Every trade</h2>
-<div class="panel"><table><tr><th>Date</th><th>Trade</th><th>Strategy</th><th>Actually traded</th></tr><tr><td>2026-10-05</td><td>Mon · Trade 3</td><td class='m'>PENDING</td><td class='m'>NOT LOGGED</td></tr><tr><td>2026-10-05</td><td>Mon · Trade 2</td><td class='m'>PENDING</td><td class='m'>NOT LOGGED</td></tr><tr><td>2026-10-05</td><td>Mon · Trade 1</td><td class='m'>PENDING</td><td class='m'>NOT LOGGED</td></tr></table></div>
+<div class="panel"><table><tr><th>Date</th><th>Trade</th><th>Strategy</th><th>Actually traded</th></tr><tr><td>2026-10-05</td><td>Mon · Trade 3</td><td class='m'>PENDING</td><td class='m'>NOT LOGGED</td></tr><tr><td>2026-10-05</td><td>Mon · Trade 2</td><td class='m'>PENDING</td><td class='m'>NOT LOGGED</td></tr><tr><td>2026-10-05</td><td>Mon · Trade 1</td><td class='m'>PENDING</td><td class='bad'>LOST <span class='u'>−1.03u</span></td></tr></table></div>
 <h2>Sealed days</h2>
 <p class="s">Each fingerprint is SHA-256 of a secret key followed by that day's full plan, published before the open. The plan itself stays
 private. Anyone given a day's plan file can check it against the fingerprint here:</p>
