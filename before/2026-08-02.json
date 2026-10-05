@@ -1,0 +1,26 @@
+{
+ "date": "2026-08-02",
+ "source": "Steady Eddie trade log (summer card)",
+ "trades": [
+  {
+   "trade": "Sun · Trade 1",
+   "taken": {
+    "result": "WON",
+    "units": 0.405
+   },
+   "strategy": {
+    "result": "NOT GRADED"
+   }
+  },
+  {
+   "trade": "Sun · Trade 2",
+   "taken": {
+    "result": "WON",
+    "units": 0.446
+   },
+   "strategy": {
+    "result": "NOT GRADED"
+   }
+  }
+ ]
+}
