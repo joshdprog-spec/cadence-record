@@ -1,12 +1,11 @@
 {
- "date": "2026-08-03",
- "source": "the trade spreadsheet",
+ "date": "2026-09-07",
+ "source": "the app's trade log",
  "trades": [
   {
    "trade": "Mon · Trade 1",
    "taken": {
-    "result": "WON",
-    "units": 0.465
+    "result": "NOT TAKEN"
    },
    "strategy": {
     "result": "NOT GRADED"

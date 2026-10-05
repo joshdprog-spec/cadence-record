@@ -1,9 +1,19 @@
 {
- "date": "2026-07-24",
- "source": "the trade spreadsheet",
+ "date": "2026-10-01",
+ "source": "the app's trade log",
  "trades": [
   {
-   "trade": "Fri · Trade 1",
+   "trade": "Thu · Trade 1",
+   "taken": {
+    "result": "WON",
+    "units": 0.958
+   },
+   "strategy": {
+    "result": "NOT GRADED"
+   }
+  },
+  {
+   "trade": "Thu · Trade 2",
    "taken": {
     "result": "WON",
     "units": 0.473
@@ -13,19 +23,10 @@
    }
   },
   {
-   "trade": "Fri · Trade 2",
-   "taken": {
-    "result": "NO SIGNAL"
-   },
-   "strategy": {
-    "result": "NOT GRADED"
-   }
-  },
-  {
-   "trade": "Fri · Trade 3",
+   "trade": "Thu · Trade 3",
    "taken": {
     "result": "WON",
-    "units": 0.373
+    "units": 1.473
    },
    "strategy": {
     "result": "NOT GRADED"

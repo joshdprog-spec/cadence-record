@@ -1,11 +1,12 @@
 {
- "date": "2026-07-14",
- "source": "the trade spreadsheet",
+ "date": "2026-09-08",
+ "source": "the app's trade log",
  "trades": [
   {
    "trade": "Tue · Trade 1",
    "taken": {
-    "result": "NO SIGNAL"
+    "result": "LOST",
+    "units": -1.027
    },
    "strategy": {
     "result": "NOT GRADED"
@@ -13,15 +14,6 @@
   },
   {
    "trade": "Tue · Trade 2",
-   "taken": {
-    "result": "NO SIGNAL"
-   },
-   "strategy": {
-    "result": "NOT GRADED"
-   }
-  },
-  {
-   "trade": "Tue · Trade 3",
    "taken": {
     "result": "NO SIGNAL"
    },
