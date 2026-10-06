@@ -39,7 +39,12 @@ label.btn:hover { border-color:var(--acc); } label.btn input { display:none; }
 <h1>The record</h1>
 <p class="s">Every planned trade since 2026-10-05, ES futures. Each trading day the full plan is sealed before the 6:30am PT open, and only
 its fingerprint is published. Nothing is added, removed or changed after the fact. 1 unit = the risk of one trade; results are net of fees.</p>
-<h2>The strategy</h2><p class='s'>Every planned trade, graded on real market data, whether or not it was taken.</p><div class='hero'><div class='tile main '><div class='k'>Win rate</div><div class='v'>—</div><div class='s'>nothing graded yet</div></div></div>
+<h2>The strategy</h2><p class="s">Every planned trade, graded on real market data, whether or not it was taken.</p>
+<div class="hero">
+  <div class="tile main "><div class="k">Win rate</div><div class="v">50.0%</div><div class="s">1-1 · 2 trades</div></div>
+  <div class="tile"><div class="k">Units</div><div class="v bad">−0.9</div><div class="s">profit at 1 unit of risk a trade</div></div>
+  <div class="tile"><div class="k">Return</div><div class="v bad">-43.2%</div><div class="s">average per trade, as a share of its risk</div></div>
+</div>
 <h2>Actually traded</h2><p class="s">What was really traded, as logged by the trader. Trades not taken don't count toward the rate.</p>
 <div class="hero">
   <div class="tile main alt"><div class="k">Win rate</div><div class="v">50.0%</div><div class="s">1-1 · 2 trades</div></div>
@@ -47,12 +52,12 @@ its fingerprint is published. Nothing is added, removed or changed after the fac
   <div class="tile"><div class="k">Return</div><div class="v good">+46.5%</div><div class="s">average per trade, as a share of its risk</div></div>
 </div>
 <h2>Every trade</h2>
-<div class="panel"><table><tr><th>Date</th><th>Trade</th><th>Strategy</th><th>Actually traded</th></tr><tr><td>2026-10-05</td><td>Mon · Trade 3</td><td class='m'>PENDING</td><td class='good'>WON <span class='u'>+1.97u</span></td></tr><tr><td>2026-10-05</td><td>Mon · Trade 2</td><td class='m'>PENDING</td><td class='m'>NO SIGNAL</td></tr><tr><td>2026-10-05</td><td>Mon · Trade 1</td><td class='m'>PENDING</td><td class='bad'>LOST <span class='u'>−1.03u</span></td></tr></table></div>
+<div class="panel"><table><tr><th>Date</th><th>Trade</th><th>Strategy</th><th>Actually traded</th></tr><tr><td>2026-10-06</td><td>Tue · Trade 2</td><td class='m'>PENDING</td><td class='m'>NOT LOGGED</td></tr><tr><td>2026-10-06</td><td>Tue · Trade 1</td><td class='m'>PENDING</td><td class='m'>NOT LOGGED</td></tr><tr><td>2026-10-05</td><td>Mon · Trade 3</td><td class='good'>WON <span class='u'>+0.17u</span></td><td class='good'>WON <span class='u'>+1.97u</span></td></tr><tr><td>2026-10-05</td><td>Mon · Trade 2</td><td class='m'>NO SIGNAL</td><td class='m'>NO SIGNAL</td></tr><tr><td>2026-10-05</td><td>Mon · Trade 1</td><td class='bad'>LOST <span class='u'>−1.03u</span></td><td class='bad'>LOST <span class='u'>−1.03u</span></td></tr></table></div>
 <h2>Sealed days</h2>
 <p class="s">Each fingerprint is SHA-256 of a secret key followed by that day's full plan, published before the open. The plan itself stays
 private. Anyone given a day's plan file can check it against the fingerprint here:</p>
 <p><label class="btn">Check a plan file<input type="file" id="chk" accept=".json"></label> <span id="chkout" class="s"></span></p>
-<div class="panel"><table><tr><th>Day</th><th>Sealed</th><th>Trades</th><th>Fingerprint</th></tr><tr><td>2026-10-05</td><td>2026-10-05 05:22:34-07:00</td><td>3</td><td class='fp'>ebefb2106f3e06b64f8d17aa0f45a2fc84cbf818013741b06732548b7de1e0f1</td></tr></table></div>
+<div class="panel"><table><tr><th>Day</th><th>Sealed</th><th>Trades</th><th>Fingerprint</th></tr><tr><td>2026-10-06</td><td>2026-10-06 05:45:03-07:00</td><td>2</td><td class='fp'>27c9caa2a71a035de0c91b601331172716dfbea94ad84f1917134bc89aeabd21</td></tr><tr><td>2026-10-05</td><td>2026-10-05 05:22:34-07:00</td><td>3</td><td class='fp'>ebefb2106f3e06b64f8d17aa0f45a2fc84cbf818013741b06732548b7de1e0f1</td></tr></table></div>
 
 <h2 style="margin-top:56px">Before the record</h2>
 <p class="s">Trades that were really taken and logged from 2026-07-13 to 2026-10-02, before sealing began, on earlier versions of the plan.
@@ -68,7 +73,7 @@ Sources: 2026-07-13 to 2026-08-09: the trade spreadsheet; 2026-09-04 to 2026-10-
 <p class="s">The push times in this page's GitHub history are GitHub's own timestamps. Past results are not a promise. Futures trading carries risk of loss. Not investment advice.</p>
 </main>
 <script>
-const FPS = {"2026-10-05": "ebefb2106f3e06b64f8d17aa0f45a2fc84cbf818013741b06732548b7de1e0f1"};
+const FPS = {"2026-10-05": "ebefb2106f3e06b64f8d17aa0f45a2fc84cbf818013741b06732548b7de1e0f1", "2026-10-06": "27c9caa2a71a035de0c91b601331172716dfbea94ad84f1917134bc89aeabd21"};
 document.getElementById("chk").onchange = async e => {
   const out = document.getElementById("chkout"), f = e.target.files[0]; if (!f) return;
   try {
