@@ -1,0 +1,32 @@
+{
+ "date": "2026-10-08",
+ "trades": [
+  {
+   "trade": "Thu · Trade 1",
+   "strategy": {
+    "result": "PENDING"
+   },
+   "taken": {
+    "result": "NOT LOGGED"
+   }
+  },
+  {
+   "trade": "Thu · Trade 2",
+   "strategy": {
+    "result": "PENDING"
+   },
+   "taken": {
+    "result": "NOT LOGGED"
+   }
+  },
+  {
+   "trade": "Thu · Trade 3",
+   "strategy": {
+    "result": "PENDING"
+   },
+   "taken": {
+    "result": "NOT LOGGED"
+   }
+  }
+ ]
+}
