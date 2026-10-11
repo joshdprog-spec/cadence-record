@@ -1,0 +1,33 @@
+{
+ "date": "2026-07-26",
+ "backfill": true,
+ "plays": [
+  {
+   "play": 37,
+   "day": "Sun",
+   "result": "LOST",
+   "units": -1.035
+  },
+  {
+   "play": 26,
+   "day": "Sun",
+   "result": "LOST",
+   "units": -1.054
+  },
+  {
+   "play": 44,
+   "day": "Sun",
+   "result": "NO SIGNAL"
+  },
+  {
+   "play": 24,
+   "day": "Sun",
+   "result": "NO SIGNAL"
+  },
+  {
+   "play": 2,
+   "day": "Sun",
+   "result": "NO SIGNAL"
+  }
+ ]
+}

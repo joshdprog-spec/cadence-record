@@ -1,0 +1,102 @@
+{
+ "date": "2026-07-30",
+ "backfill": true,
+ "plays": [
+  {
+   "play": 59,
+   "day": "Thu",
+   "result": "LOST",
+   "units": -1.027
+  },
+  {
+   "play": 6,
+   "day": "Thu",
+   "result": "WON",
+   "units": 1.473
+  },
+  {
+   "play": 39,
+   "day": "Thu",
+   "result": "WON",
+   "units": 0.973
+  },
+  {
+   "play": 62,
+   "day": "Thu",
+   "result": "NO SIGNAL"
+  },
+  {
+   "play": 49,
+   "day": "Thu",
+   "result": "LOST",
+   "units": -1.027
+  },
+  {
+   "play": 55,
+   "day": "Thu",
+   "result": "WON",
+   "units": 1.973
+  },
+  {
+   "play": 120,
+   "day": "Thu",
+   "result": "WON",
+   "units": 0.958
+  },
+  {
+   "play": 50,
+   "day": "Thu",
+   "result": "WON",
+   "units": 2.973
+  },
+  {
+   "play": 117,
+   "day": "Thu",
+   "result": "NO SIGNAL"
+  },
+  {
+   "play": 133,
+   "day": "Thu",
+   "result": "NO SIGNAL"
+  },
+  {
+   "play": 60,
+   "day": "Thu",
+   "result": "WON",
+   "units": 1.375
+  },
+  {
+   "play": 42,
+   "day": "Thu",
+   "result": "NO SIGNAL"
+  },
+  {
+   "play": 4,
+   "day": "Thu",
+   "result": "LOST",
+   "units": -1.027
+  },
+  {
+   "play": 52,
+   "day": "Thu",
+   "result": "LOST",
+   "units": -1.027
+  },
+  {
+   "play": 32,
+   "day": "Thu",
+   "result": "NO SIGNAL"
+  },
+  {
+   "play": 48,
+   "day": "Thu",
+   "result": "WON",
+   "units": 1.446
+  },
+  {
+   "play": 29,
+   "day": "Thu",
+   "result": "NO SIGNAL"
+  }
+ ]
+}
