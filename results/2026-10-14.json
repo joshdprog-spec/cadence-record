@@ -7,7 +7,9 @@
     "result": "PENDING"
    },
    "taken": {
-    "result": "NOT LOGGED"
+    "result": "LOST",
+    "units": -1.027,
+    "acct": -0.331
    }
   },
   {
@@ -16,7 +18,7 @@
     "result": "PENDING"
    },
    "taken": {
-    "result": "NOT LOGGED"
+    "result": "NO SIGNAL"
    }
   },
   {
@@ -25,7 +27,9 @@
     "result": "PENDING"
    },
    "taken": {
-    "result": "NOT LOGGED"
+    "result": "WON",
+    "units": 0.473,
+    "acct": 0.158
    }
   }
  ]
