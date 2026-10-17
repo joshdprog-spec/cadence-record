@@ -82,27 +82,32 @@
   {
    "play": 4,
    "day": "Thu",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.027
   },
   {
    "play": 52,
    "day": "Thu",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.027
   },
   {
    "play": 32,
    "day": "Thu",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.027
   },
   {
    "play": 48,
    "day": "Thu",
-   "result": "PENDING"
+   "result": "WON",
+   "units": 1.446
   },
   {
    "play": 29,
    "day": "Thu",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.027
   }
  ]
 }
