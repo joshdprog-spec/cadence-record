@@ -5,27 +5,28 @@
   {
    "play": 37,
    "day": "Sun",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 26,
    "day": "Sun",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 44,
    "day": "Sun",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 24,
    "day": "Sun",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 2,
    "day": "Sun",
-   "result": "PENDING"
+   "result": "WON",
+   "units": 0.973
   }
  ]
 }

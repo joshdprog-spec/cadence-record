@@ -4,27 +4,32 @@
   {
    "trade": "Mon · Trade 1",
    "strategy": {
-    "result": "PENDING"
+    "result": "WON",
+    "units": 0.965
    },
    "taken": {
     "result": "LOST",
     "units": -1.035,
-    "acct": -0.26
+    "acct": -0.333
    }
   },
   {
    "trade": "Mon · Trade 2",
    "strategy": {
-    "result": "PENDING"
+    "result": "WON",
+    "units": 0.83
    },
    "taken": {
-    "result": "PENDING"
+    "result": "WON",
+    "units": 0.83,
+    "acct": 0.349
    }
   },
   {
    "trade": "Mon · Trade 3",
    "strategy": {
-    "result": "PENDING"
+    "result": "LOST",
+    "units": -0.398
    },
    "taken": {
     "result": "NOT TAKEN"
