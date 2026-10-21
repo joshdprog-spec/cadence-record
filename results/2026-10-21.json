@@ -27,7 +27,9 @@
     "result": "PENDING"
    },
    "taken": {
-    "result": "NOT LOGGED"
+    "result": "WON",
+    "units": 0.473,
+    "acct": 0.157
    }
   }
  ]
