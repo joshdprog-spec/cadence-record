@@ -1,0 +1,56 @@
+{
+ "date": "2026-10-23",
+ "backfill": false,
+ "plays": [
+  {
+   "play": 64,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 66,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 36,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 25,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 1,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 135,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 16,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 132,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 47,
+   "day": "Fri",
+   "result": "PENDING"
+  },
+  {
+   "play": 22,
+   "day": "Fri",
+   "result": "PENDING"
+  }
+ ]
+}
