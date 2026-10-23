@@ -1,0 +1,8 @@
+{
+ "date": "2026-10-23",
+ "day": "Friday",
+ "sealed_at": "2026-10-23T05:45:02-07:00",
+ "count": 2,
+ "fingerprint": "ea9bccf33b0ae62a14ebd1c36507dca963ffeb9556072ae7790fac167be3dcce",
+ "how": "SHA-256 of a secret key followed by the day's full plan (canonical JSON)"
+}
