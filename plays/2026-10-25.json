@@ -1,0 +1,31 @@
+{
+ "date": "2026-10-25",
+ "backfill": false,
+ "plays": [
+  {
+   "play": 37,
+   "day": "Sun",
+   "result": "PENDING"
+  },
+  {
+   "play": 26,
+   "day": "Sun",
+   "result": "PENDING"
+  },
+  {
+   "play": 44,
+   "day": "Sun",
+   "result": "PENDING"
+  },
+  {
+   "play": 24,
+   "day": "Sun",
+   "result": "PENDING"
+  },
+  {
+   "play": 2,
+   "day": "Sun",
+   "result": "PENDING"
+  }
+ ]
+}
