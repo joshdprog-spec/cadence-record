@@ -8,9 +8,7 @@
     "units": -1.035
    },
    "taken": {
-    "result": "LOST",
-    "units": -1.035,
-    "acct": -1.365
+    "result": "NOT TAKEN"
    }
   },
   {
@@ -20,9 +18,7 @@
     "units": 0.294
    },
    "taken": {
-    "result": "WON",
-    "units": 0.294,
-    "acct": 0.524
+    "result": "NOT TAKEN"
    }
   },
   {
