@@ -4,7 +4,8 @@
   {
    "trade": "Mon · Trade 1",
    "strategy": {
-    "result": "PENDING"
+    "result": "LOST",
+    "units": -1.035
    },
    "taken": {
     "result": "LOST",
@@ -15,19 +16,23 @@
   {
    "trade": "Mon · Trade 2",
    "strategy": {
-    "result": "PENDING"
+    "result": "WON",
+    "units": 0.294
    },
    "taken": {
-    "result": "PENDING"
+    "result": "WON",
+    "units": 0.294,
+    "acct": 0.524
    }
   },
   {
    "trade": "Mon · Trade 3",
    "strategy": {
-    "result": "PENDING"
+    "result": "WON",
+    "units": 0.079
    },
    "taken": {
-    "result": "NOT TAKEN"
+    "result": "NO SIGNAL"
    }
   }
  ]
