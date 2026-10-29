@@ -1,0 +1,101 @@
+{
+ "date": "2026-10-29",
+ "backfill": false,
+ "plays": [
+  {
+   "play": 59,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 6,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 39,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 62,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 49,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 125,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 1004,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 55,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 126,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 50,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 124,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 133,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 60,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 42,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 4,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 52,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 32,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 48,
+   "day": "Thu",
+   "result": "PENDING"
+  },
+  {
+   "play": 29,
+   "day": "Thu",
+   "result": "PENDING"
+  }
+ ]
+}

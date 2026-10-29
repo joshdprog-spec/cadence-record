@@ -1,0 +1,36 @@
+{
+ "date": "2026-10-28",
+ "trades": [
+  {
+   "trade": "Wed · Trade 1",
+   "strategy": {
+    "result": "PENDING"
+   },
+   "taken": {
+    "result": "WON",
+    "units": 0.735,
+    "acct": 1.494
+   }
+  },
+  {
+   "trade": "Wed · Trade 2",
+   "strategy": {
+    "result": "PENDING"
+   },
+   "taken": {
+    "result": "NO SIGNAL"
+   }
+  },
+  {
+   "trade": "Wed · Trade 3",
+   "strategy": {
+    "result": "PENDING"
+   },
+   "taken": {
+    "result": "LOST",
+    "units": -0.747,
+    "acct": -1.533
+   }
+  }
+ ]
+}

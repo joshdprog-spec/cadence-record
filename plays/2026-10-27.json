@@ -5,57 +5,62 @@
   {
    "play": 53,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.027
   },
   {
    "play": 63,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 65,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 45,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 35,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 1002,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.027
   },
   {
    "play": 61,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 128,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "WON",
+   "units": 0.973
   },
   {
    "play": 34,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 14,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "WON",
+   "units": 0.556
   },
   {
    "play": 137,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "WON",
+   "units": 0.473
   },
   {
    "play": 11,

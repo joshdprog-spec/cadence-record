@@ -74,27 +74,31 @@
   {
    "play": 31,
    "day": "Mon",
-   "result": "PENDING"
+   "result": "WON",
+   "units": 0.723
   },
   {
    "play": 57,
    "day": "Mon",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.027
   },
   {
    "play": 58,
    "day": "Mon",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.027
   },
   {
    "play": 15,
    "day": "Mon",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.035
   },
   {
    "play": 10,
    "day": "Mon",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   }
  ]
 }
