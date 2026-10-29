@@ -65,27 +65,28 @@
   {
    "play": 11,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 43,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 54,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   },
   {
    "play": 41,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "LOST",
+   "units": -1.042
   },
   {
    "play": 27,
    "day": "Tue",
-   "result": "PENDING"
+   "result": "NO SIGNAL"
   }
  ]
 }
