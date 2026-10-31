@@ -4,7 +4,8 @@
   {
    "trade": "Fri · Trade 1",
    "strategy": {
-    "result": "PENDING"
+    "result": "LOST",
+    "units": -1.027
    },
    "taken": {
     "result": "WON",
@@ -15,7 +16,7 @@
   {
    "trade": "Fri · Trade 2",
    "strategy": {
-    "result": "PENDING"
+    "result": "NO SIGNAL"
    },
    "taken": {
     "result": "NO SIGNAL"
