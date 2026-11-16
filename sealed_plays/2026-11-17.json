@@ -1,0 +1,8 @@
+{
+ "date": "2026-11-17",
+ "day": "Tuesday",
+ "sealed_at": "2026-11-16T05:45:15-08:00",
+ "count": 16,
+ "fingerprint": "82b3c27b10330f6e555975749b012af09179d9bd1e48b3fa48a7c5e179bf52f0",
+ "how": "SHA-256 of a secret key followed by the day's full play list (canonical JSON)"
+}
