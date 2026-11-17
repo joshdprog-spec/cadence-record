@@ -8,8 +8,8 @@
    },
    "taken": {
     "result": "WON",
-    "units": 0.473,
-    "acct": 0.514
+    "units": 0.485,
+    "acct": 1.379
    }
   },
   {
@@ -18,7 +18,9 @@
     "result": "PENDING"
    },
    "taken": {
-    "result": "NOT LOGGED"
+    "result": "WON",
+    "units": 0.735,
+    "acct": 0.278
    }
   }
  ]
