@@ -1,0 +1,14 @@
+{
+ "date": "2026-11-23",
+ "trades": [
+  {
+   "trade": "Mon · Trade 1",
+   "strategy": {
+    "result": "PENDING"
+   },
+   "taken": {
+    "result": "NOT LOGGED"
+   }
+  }
+ ]
+}
