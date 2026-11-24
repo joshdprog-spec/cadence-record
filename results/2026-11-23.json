@@ -4,12 +4,13 @@
   {
    "trade": "Mon · Trade 1",
    "strategy": {
-    "result": "PENDING"
+    "result": "WON",
+    "units": 0.473
    },
    "taken": {
     "result": "WON",
-    "units": 0.473,
-    "acct": 0.683
+    "units": 0.485,
+    "acct": 0.681
    }
   }
  ]
