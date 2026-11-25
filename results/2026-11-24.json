@@ -4,7 +4,8 @@
   {
    "trade": "Tue · Trade 1",
    "strategy": {
-    "result": "PENDING"
+    "result": "WON",
+    "units": 0.473
    },
    "taken": {
     "result": "WON",
