@@ -4,7 +4,7 @@
   {
    "trade": "Thu · Trade 1",
    "strategy": {
-    "result": "PENDING"
+    "result": "MARKET CLOSED"
    },
    "taken": {
     "result": "NOT LOGGED"
